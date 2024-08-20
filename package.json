@@ -1,0 +1,25 @@
+{
+  "name": "@groton/import-course-content",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@battis/qui-cli": "^0.4.2",
+    "puppeteer": "^23.1.0"
+  },
+  "devDependencies": {
+    "@battis/eslint-config": "^1.2.1",
+    "@battis/prettier-config": "^1.4.0",
+    "@tsconfig/recommended": "^1.0.7",
+    "tsx": "^4.17.0"
+  },
+  "prettier": "@battis/prettier-config",
+  "eslintConfig": {
+    "extends": "@battis/eslint-config"
+  }
+}

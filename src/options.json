@@ -1,0 +1,22 @@
+{
+  "course": {
+    "short": "o",
+    "description": "URL of course topics page (defaults to COURSE_URL environment variable, if present)"
+  },
+  "content": {
+    "short": "i",
+    "description": "Path to content JSON file"
+  },
+  "mappings": {
+    "short": "m",
+    "description": "Path to mappings JSON file"
+  },
+  "username": {
+    "short": "u",
+    "description": "Username to sign into LMS"
+  },
+  "password": {
+    "short": "p",
+    "description": "Password to sign into LMS"
+  }
+}

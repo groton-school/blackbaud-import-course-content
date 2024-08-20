@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/recommended",
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "es2022",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["./src"]
+}
