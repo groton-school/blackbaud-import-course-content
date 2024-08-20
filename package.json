@@ -1,12 +1,14 @@
 {
-  "name": "@groton/import-course-content",
+  "name": "@groton/blackbaud-import-course-content",
+  "description": "Import arbitrary content into a Blackbaud course site",
+  "version": "0.0.0",
+  "author": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@battis/qui-cli": "^0.4.2",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "@battis/eslint-config": "^1.2.1",
     "@battis/prettier-config": "^1.4.0",
+    "@changesets/cli": "^2.27.7",
     "@tsconfig/recommended": "^1.0.7",
     "tsx": "^4.17.0"
   },
